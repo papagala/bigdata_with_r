@@ -48,6 +48,11 @@ RUN conda install --quiet --yes \
     'r-ffbase' \
     'r-biglm' \
     'r-party' \
+    'r-mass' \
+    'r-snow' \
+    'r-colorspace' \
+    'r-gplots' \
+    'r-dendextend' \
     && \
     conda clean --all -f -y && \
     fix-permissions "${CONDA_DIR}"
