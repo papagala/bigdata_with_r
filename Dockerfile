@@ -44,6 +44,10 @@ RUN conda install --quiet --yes \
     'r-tidyverse=1.3*' \
     'unixodbc=2.3.*' \
     'r-tidymodels=0.1*' \
+    'r-ff' \
+    'r-ffbase' \
+    'r-biglm' \
+    'r-party' \
     && \
     conda clean --all -f -y && \
     fix-permissions "${CONDA_DIR}"
