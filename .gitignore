@@ -40,3 +40,6 @@ vignettes/*.pdf
 
 # Mac-specific
 .DS_Store
+
+# condaenv
+**local_env/**
