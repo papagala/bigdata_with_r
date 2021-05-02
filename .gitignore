@@ -43,3 +43,6 @@ vignettes/*.pdf
 
 # condaenv
 **local_env/**
+
+# r package
+r-**/**
